@@ -31,6 +31,7 @@ print("Pole trapezu wynosi: ", wynik)
 r = input("Podaj promień kuli: ")
 pi = 3.14
 
-wynik = 4/3 * pi * r**3
+wynik = 4/3 * pi * int(r)**3
 
 print("Objętość kuli o promieniu " + str(r) + " wynosi: ", wynik)
+
