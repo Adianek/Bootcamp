@@ -15,5 +15,9 @@ elif x <= 10 and y > 10 and y < 90 and x >= 0:
     print("Gracz znajduje się w lewej krawędzi")
 elif x >= 90 and y > 10 and y < 90 and x <= 100:
     print("Gracz znajduje się w prawej krawędzi")
+elif x > 10 and x < 90 and y >= 0 and y <= 10:
+    print("Gracz znajduje się w dolnej krawędzi")
+elif x > 90 and x <= 100 and y > 90 and y <= 100:
+    print("Gracz znajduje się w górnej krawędzi")
 else:
     print("Gracz znajduje się w centrum")
