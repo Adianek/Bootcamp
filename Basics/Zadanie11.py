@@ -1,6 +1,8 @@
 x = int(input("Podaj x: "))
 y = int(input("Podaj y: "))
 
+# najpierw sprawdzam czy jest poza planszą
+
 if (x < 0 or y < 0) or (x > 100 or y > 100):
     print("Gracz jest poza planszą")
 elif x <= 10 and y <= 10 and x >= 0 and y >= 0:
@@ -17,7 +19,7 @@ elif x >= 90 and y > 10 and y < 90 and x <= 100:
     print("Gracz znajduje się w prawej krawędzi")
 elif x > 10 and x < 90 and y >= 0 and y <= 10:
     print("Gracz znajduje się w dolnej krawędzi")
-elif x > 90 and x <= 100 and y > 90 and y <= 100:
+elif x > 10 and x < 90 and y > 90 and y <= 100:
     print("Gracz znajduje się w górnej krawędzi")
 else:
     print("Gracz znajduje się w centrum")
