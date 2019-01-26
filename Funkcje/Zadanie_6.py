@@ -20,3 +20,4 @@ def test_splaszcz_plaska_lista():
 def test_splaszcz_zagniezdzona_lista():
     assert splaszcz([1, 2, [3, 4]]) == [1, 2, 3, 4]
     assert splaszcz([1, 2, 3, [4, 5, [6]], 7]) == [1, 2, 3, 4, 5, 6, 7]
+
