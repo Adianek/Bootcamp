@@ -16,3 +16,18 @@ class Employee:
             return self.stawka * worked_hours
 
 class PremiumEmployee:
+
+    def give_bonus(self, amount):
+        self.bonus += amount
+
+
+    def pay_salary(self):
+        return super().pay
+
+
+
+def test_premium_employee_give_bonus():
+    employee = PremiumEmployee("Jan", "Słodowy", 100)
+    employee.register_time(5)
+    employee.give_bonus(1000)
+    assert employee.pay_salary() == 1500
