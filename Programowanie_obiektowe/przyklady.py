@@ -20,3 +20,5 @@ python.grupa = "Gady"
 print(python.imie)
 print(python.wiek)
 print(python.grupa)  # Odwolanie sie do klasy
+
+
