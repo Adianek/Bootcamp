@@ -12,7 +12,7 @@ def suma():
     except ValueError:
         messagebox.showerror("Błędne dane", "Popraw dane - powinny być liczbami")
 
-    wynik_label.configure(text="Kliknięto w przycisk")
+
 
 
 root = tkinter.Tk()
@@ -31,6 +31,6 @@ button = tkinter.Button(master=root, text="Sum", command=suma)
 button.grid(row=2, column=1)
 
 wynik_label = tkinter.Label(master=root, text=" - ")
-wynik_label.grid()
+wynik_label.grid(row=3, column=1)
 
 root.mainloop()  # standardowe okno
