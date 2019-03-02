@@ -10,3 +10,9 @@ print(re.findall(r'\d{2}-\d{3}', s))
 # print(re.findall(r'\w+', s))  wyprintowanie wszystkich napisow
 print(re.findall(r'[\w\-+.]+@[\w\-.]+', s))
 print(re.findall(r'.\d\d \w\w\w \d\d\d\d', s))
+
+
+# pythonchallenge.com
+
+# from string import ascii_letters
+# ascii_lowercase
